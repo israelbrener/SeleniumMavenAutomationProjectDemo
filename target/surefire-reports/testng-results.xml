@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<font size='3' color='red'>This is a sample text to send to Report-ng]]>
+    </line>
+    <line>
+      <![CDATA[<br/><p><img width='612' src='C:\Users\Israel Brener\Pictures\reportNG_SnapShotS\28_09_2020_01_08_21_image.png'></P>]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="9156" started-at="2020-09-28T13:08:14 IDT" finished-at="2020-09-28T13:08:23 IDT">
+    <groups>
+    </groups>
+    <test name="Test Sanity" duration-ms="9156" started-at="2020-09-28T13:08:14 IDT" finished-at="2020-09-28T13:08:23 IDT">
+      <class name="tests.TestPageObject">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:tests.TestPageObject@128d2484]" name="beforeClass" is-config="true" duration-ms="3731" started-at="2020-09-28T13:08:14 IDT" finished-at="2020-09-28T13:08:18 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.TestPageObject@128d2484]" name="beforeMethod" is-config="true" duration-ms="2363" started-at="2020-09-28T13:08:18 IDT" finished-at="2020-09-28T13:08:20 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="addImageToReportExample()[pri:1, instance:tests.TestPageObject@128d2484]" name="addImageToReportExample" duration-ms="407" started-at="2020-09-28T13:08:20 IDT" finished-at="2020-09-28T13:08:21 IDT">
+          <reporter-output>
+            <line>
+              <![CDATA[<font size='3' color='red'>This is a sample text to send to Report-ng]]>
+            </line>
+            <line>
+              <![CDATA[<br/><p><img width='612' src='C:\Users\Israel Brener\Pictures\reportNG_SnapShotS\28_09_2020_01_08_21_image.png'></P>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addImageToReportExample -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestPageObject@128d2484]" name="afterMethod" is-config="true" duration-ms="2000" started-at="2020-09-28T13:08:21 IDT" finished-at="2020-09-28T13:08:23 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.TestPageObject@128d2484]" name="afterClass" is-config="true" duration-ms="627" started-at="2020-09-28T13:08:23 IDT" finished-at="2020-09-28T13:08:23 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- tests.TestPageObject -->
+    </test> <!-- Test Sanity -->
+  </suite> <!-- Suite -->
+</testng-results>

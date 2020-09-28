@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test Sanity ReportNG"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1.167">
+  <properties />
+  
+  
+            <testcase name="addImageToReportExample" time="1.167" classname="test.TestPageObject" />
+      
+</testsuite>
